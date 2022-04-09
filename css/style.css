@@ -37,6 +37,7 @@ html, body{
 /* Nav */
 .navbar{
     background: transparent;
+    margin-bottom: -100px;
 }
 
 .navbar .navbar-nav .nav-link{
