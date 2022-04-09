@@ -1,5 +1,5 @@
 
-html,body{
+html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,5 +9,78 @@ html,body{
 }
 
 .container{
-    width: 1400px;
+    max-width: 1400px;
 }
+
+.btn{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px; 
+    padding: 13px 24px ;
+    border-radius: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.primary-btn{
+    background-color: #cd1813;
+    color: #ffffff;
+}
+
+.secondary-btn{
+    background-color: #ffffff;
+    color: #cd1813;
+}
+
+
+/* Nav */
+.navbar{
+    background-color: none;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #e7ebef;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:active{
+    color: #ffffff;
+    border-bottom: 3px solid #cd1813;
+}
+
+.navbar .navbar-nav .call span{
+    font-weight: 700;
+}
+
+.navbar .call img{
+    width: 40px;
+    length: 40px;
+}
+
+.navbar .call span{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #e7ebef;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+/* Nav */
+
+
+
+/* Home */
+#home{
+    padding-top: 240px;
+    padding-bottom: 200px;
+    background: linear-gradient(rgba(2,96,199,0.6),rgba(2,96,199,0.6)), url(../images/header-bkg-img.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+/* Home */
