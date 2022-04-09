@@ -17,7 +17,7 @@ html, body{
     font-weight: 600;
     font-style: normal;
     font-size: 18px; 
-    padding: 13px 24px ;
+    padding: 15px 30px ;
     border-radius: 6px;
     text-decoration: none;
     text-transform: uppercase;
@@ -80,8 +80,33 @@ html, body{
 #home{
     padding-top: 240px;
     padding-bottom: 200px;
-    background: linear-gradient(rgba(2,96,199,0.6),rgba(2,96,199,0.6)), url(../images/header-bkg-img.jpg) no-repeat center;
+    background: linear-gradient(rgba(2,96,199,0.8),rgba(2,96,199,0.8)), url(../images/header-bkg-img.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
 }
+
+#home h1{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: #e7ebef;
+    letter-spacing: 2px;
+}
+
+#home h2{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 84px;
+}
+
+#home h6{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+
+
 /* Home */
