@@ -109,7 +109,30 @@ html, body{
 }
 
 #home .home-img img{
+    width: 100%;
     background: transparent;
     margin-top: -100px;
 }
 /* Home */
+
+
+
+/* Qualities */
+#qualities{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e7ebef;
+}
+
+#qualities .q-text h6{
+    color: #030d19;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#qualities .icon-box{
+    display: flex;
+}
+/* Qualities */
