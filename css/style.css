@@ -40,6 +40,13 @@ html, body{
     padding: 20px 40px;
 }
 
+.fourth-btn{
+    border: none;
+    color: #cd1813;
+    background: transparent;
+    padding: 0;
+}
+
 
 /* Nav */
 .navbar{
@@ -54,11 +61,13 @@ html, body{
     color: #e7ebef;
     font-size: 18px;
     text-transform: uppercase;
+    transition: all 0.4s ease;
 }
 
-.navbar .navbar-nav .nav-link:active{
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:hover{
     color: #ffffff;
-    border-bottom: 3px solid #cd1813;
+    border-bottom: 4px solid #cd1813;
 }
 
 .navbar .navbar-nav .call span{
@@ -187,3 +196,71 @@ html, body{
     margin-bottom: 20px;
 }
 /* Finding */
+
+
+
+/* Service */
+#service{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #e7ebef;
+}
+
+#service h2{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#service h2 span{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: #0260c7;
+}
+
+#service .service-text p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    width: 90%;
+    margin: auto;
+}
+
+#service .card{
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#service .card .card-body{
+    width: 85%;
+    margin: auto;
+}
+
+#service .card img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+#service .card .card-heading h4{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #030d19;
+    text-transform: uppercase;
+}
+
+#service .card-text p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #030d19;
+}
+/* Service */
