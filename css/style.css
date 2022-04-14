@@ -45,6 +45,8 @@ html, body{
     color: #cd1813;
     background: transparent;
     padding: 0;
+    line-height: 1.44;
+    letter-spacing: 0.36;
 }
 
 
@@ -115,6 +117,7 @@ html, body{
     font-weight: 700;
     font-style: normal;
     font-size: 84px;
+    line-height: 1.07;
 }
 
 #home h6{
@@ -122,12 +125,6 @@ html, body{
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
-}
-
-#home .home-img img{
-    width: 100%;
-    background: transparent;
-    margin-top: -100px;
 }
 /* Home */
 
@@ -146,6 +143,7 @@ html, body{
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
+    line-height: 1.2;
 }
 
 #qualities .icon-box{
@@ -171,6 +169,8 @@ html, body{
     font-weight: 700;
     font-style: normal;
     font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -1.2;
 }
 
 #finding h2 span{
@@ -179,6 +179,8 @@ html, body{
     font-style: normal;
     font-size: 60px;
     color: #0260c7;
+    line-height: 1.1;
+    letter-spacing: -1.2;
 }
 
 #finding p{
@@ -186,6 +188,7 @@ html, body{
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
+    line-height: 1.25;
 }
 
 #finding li{
@@ -211,6 +214,8 @@ html, body{
     font-weight: 700;
     font-style: normal;
     font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -1.2;
 }
 
 #service h2 span{
@@ -219,6 +224,8 @@ html, body{
     font-style: normal;
     font-size: 60px;
     color: #0260c7;
+    line-height: 1.1;
+    letter-spacing: -1.2;
 }
 
 #service .service-text p{
@@ -228,6 +235,7 @@ html, body{
     font-size: 24px;
     width: 90%;
     margin: auto;
+    line-height: 1.25;
 }
 
 #service .card{
@@ -254,6 +262,8 @@ html, body{
     font-size: 30px;
     color: #030d19;
     text-transform: uppercase;
+    line-height: 1.06;
+    letter-spacing: -0.6;
 }
 
 #service .card-text p{
@@ -262,5 +272,63 @@ html, body{
     font-style: normal;
     font-size: 18px;
     color: #030d19;
+    line-height: 1.44;
 }
 /* Service */
+
+
+
+/* Steps */
+#steps{
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+
+#steps .step-heading h2{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -1.2;
+    max-width: 90%;
+}
+
+#steps .step-heading h2 span{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -1.2;
+    color: #0260c7;
+}
+
+#steps .step-text p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: auto;
+    line-height: 1.25;
+}
+
+#steps .img-icon-heading h5{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.06;
+    letter-spacing: -0.6;
+    text-transform: uppercase;
+}
+
+#steps .img-icon-text p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+/* Steps */
