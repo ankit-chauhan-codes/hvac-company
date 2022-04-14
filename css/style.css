@@ -66,7 +66,7 @@ html, body{
     transition: all 0.4s ease;
 }
 
-.navbar .navbar-nav .nav-link:active,
+
 .navbar .navbar-nav .nav-link:hover{
     color: #ffffff;
     border-bottom: 4px solid #cd1813;
@@ -98,7 +98,7 @@ html, body{
 #home{
     padding-top: 240px;
     padding-bottom: 200px;
-    background: linear-gradient(rgba(2,96,199,0.8),rgba(2,96,199,0.8)), url(../images/header-bkg-img.jpg) no-repeat center;
+    background: url(../images/header-backgroung-image.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
 }
@@ -330,5 +330,62 @@ html, body{
     font-size: 24px;
     line-height: 1.25;
 }
-
 /* Steps */
+
+
+/* Choose-us */
+#choose-us{
+    padding-top: 129px;
+    padding-bottom: 129px;
+    background: url(../images/choose-bg-image.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+#choose-us .choose-body .choose-heading h2{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.13;
+    letter-spacing: -1.2;
+}
+
+#choose-us .choose-text p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.25;
+    max-width: 90%;
+}
+
+#choose-us .choose-points .points p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+#choose-us .call img{
+    width: 40px;
+    height: 40px;
+}
+
+#choose-us .call span{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.4;
+    letter-spacing: 0.6;
+    margin-left: 20px;
+    color: #ffffff;
+}
+/* Choose-us */
+
+
+/* testimonials */
+
+/* testimonials */
