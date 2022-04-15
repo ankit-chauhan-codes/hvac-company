@@ -198,20 +198,6 @@ html, body{
     margin-bottom: 20px;
     position: relative;
 }
-
-#finding li::before{
-    position: absolute;
-    
-    left: -2.1875rem;
-    color: var(--primary-color);
-    font-size: 1.25rem;
-    font-family: "Font Awesome 5 Free";
-    content: '\f00c';
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
-}
 /* Finding */
 
 
@@ -221,6 +207,11 @@ html, body{
     padding-top: 120px;
     padding-bottom: 120px;
     background: #e7ebef;
+}
+
+#service .service-body{
+    padding: 0 300px;
+    margin: auto;
 }
 
 #service h2{
@@ -247,9 +238,9 @@ html, body{
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
-    width: 90%;
     margin: auto;
     line-height: 1.25;
+    max-width: 90%;
 }
 
 #service .card{
@@ -377,12 +368,20 @@ html, body{
     max-width: 60%;
 }
 
+#choose-us .choose-points .points p span i{
+    font-weight: 700;
+}
+
 #choose-us .choose-points .points p{
     font-family: acumin-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
     line-height: 1.25;
+}
+
+#choose-us .call{
+    vertical-align: middle;
 }
 
 #choose-us .call img{
@@ -407,5 +406,33 @@ html, body{
 #testimonials{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+#testimonials .test-heading h2{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -1.2;
+}
+
+#testimonials .test-heading h2 span{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -1.2;
+    color: #0260c7;
+}
+
+#testimonials .test-text p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: auto;
+    line-height: 1.25;
 }
 /* testimonials */
