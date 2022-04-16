@@ -545,3 +545,59 @@ html, body{
 /* about-us */
 
 
+/* free-guide */
+#free-guide{
+    background: linear-gradient(rgba(2,96,199,0.4),rgba(2,96,199,0.4)),url(../images/guide-bg-image.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top:120px;
+    padding-bottom: 120px;
+}
+
+#free-guide .guide{
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 100px;
+    border-radius: 0px 10px 10px 0px;
+    border-left: solid 20px #e7ebef;
+}
+
+#free-guide .guide .guide-heading h2{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -1.2;
+}
+
+#free-guide .guide .guide-heading h2 span{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -1.2;
+    color: #0260c7;
+}
+
+#free-guide .guide .guide-sub-heading h6{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.33;
+}
+
+#free-guide .guide .guide-text p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin: auto;
+    line-height: 1.25;
+}
+/* free-guide */
+
