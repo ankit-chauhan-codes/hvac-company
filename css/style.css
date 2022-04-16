@@ -478,7 +478,6 @@ html, body{
 #about-us .about-us-image img{
     width: 100%;
     border-radius: 10px;
-
 }
 
 #about-us .about-us-body{
@@ -542,6 +541,18 @@ html, body{
     line-height: 1.66;
     letter-spacing: -0.36 ;
 }
+
+#about-us .about-us-icons{
+    display: inline-flex;
+}
+
+#about-us .about-us-icon-body{
+    transform: translateY(-15px);
+}
+
+#about-us .about-us-icon-body .icon-text p{
+    transform: translateY(-10px);
+} 
 /* about-us */
 
 
