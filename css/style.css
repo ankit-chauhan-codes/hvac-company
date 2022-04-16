@@ -601,3 +601,31 @@ html, body{
 }
 /* free-guide */
 
+/* request */
+#request2{
+    background: #030d19;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+#request2 .request-box2{
+    background-color: transparent;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #cd1813;
+}
+
+#request2 .request-heading2 h4{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1;
+}
+/* request */
+
+
