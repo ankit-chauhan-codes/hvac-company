@@ -629,3 +629,77 @@ html, body{
 /* request */
 
 
+/* footer */
+#footer{
+    background: #030d19;
+    background-size: cover;
+}
+
+#footer .footer-top .foot-body{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer .footer-top .foot-body .footer-text p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #e7ebef;
+    max-width: 75%;
+}
+
+#footer .footer-top .navigation a,
+#footer .footer-top .our-services a{
+    display: block;
+    padding-bottom: 10px;
+}
+
+#footer .footer-top .navigation a,
+#footer .footer-top .our-services a{
+    text-decoration: none;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #e7ebef;
+}
+
+#footer .footer-top .foot-body h5{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+#footer .footer-top .foot-body .contact-us p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #e7ebef; 
+}
+
+#footer .footer-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #e7ebef;
+}
+
+#footer .footer-bottom p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.32;
+    color: #e7ebef; 
+}
+
+
+/* footer */
