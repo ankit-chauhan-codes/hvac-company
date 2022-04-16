@@ -318,6 +318,10 @@ html, body{
     padding-bottom: 110px;
 }
 
+#steps .step-content{
+    max-width: 90%;
+}
+
 #steps .step-heading h2{
     font-family: acumin-pro, sans-serif;
     font-weight: 700;
@@ -325,7 +329,6 @@ html, body{
     font-size: 60px;
     line-height: 1.1;
     letter-spacing: -1.2;
-    max-width: 90%;
 }
 
 #steps .step-heading h2 span{
@@ -711,6 +714,4 @@ html, body{
     letter-spacing: 0.32;
     color: #e7ebef; 
 }
-
-
 /* footer */
