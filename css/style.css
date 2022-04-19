@@ -205,7 +205,7 @@ html, body{
 /* Service */
 #service{
     padding-top: 120px;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     background: #e7ebef;
 }
 
@@ -247,6 +247,7 @@ html, body{
     border: none;
     background-color: #ffffff;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 #service .card .card-body{
@@ -279,6 +280,26 @@ html, body{
     color: #030d19;
     line-height: 1.44;
 }
+
+#service .request-box{
+    background-color: #cd1813;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 920px;
+    margin: auto;
+}
+
+#service .request-heading h4{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1;
+    max-width: 97%;
+}
 /* Service */
 
 
@@ -289,27 +310,7 @@ html, body{
     padding-bottom: 120px;
 }
 
-#request .container{
-    max-width: 920px;
-}
 
-#request .request-box{
-    background-color: #cd1813;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 10px 10px 10px 10px;
-}
-
-#request .request-heading h4{
-    font-family: acumin-pro, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 1;
-}
-/* request */
 
 
 /* Steps */
@@ -636,43 +637,35 @@ html, body{
 }
 /* free-guide */
 
-/* request */
-#request2{
+
+/* footer */
+#footer{
     background: #030d19;
     background-size: cover;
     padding-top: 120px;
-    padding-bottom: 50px;
 }
 
-#request2 .request-box2{
+#footer .request-box2{
     background-color: transparent;
     padding-top: 70px;
     padding-bottom: 70px;
     padding-left: 60px;
     padding-right: 60px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     border: 2px solid #cd1813;
 }
 
-#request2 .request-heading2 h4{
+#footer .request-heading2 h4{
     font-family: acumin-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
     line-height: 1;
 }
-/* request */
-
-
-/* footer */
-#footer{
-    background: #030d19;
-    background-size: cover;
-}
 
 #footer .footer-top .foot-body{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 #footer .footer-top .foot-body .footer-text p{
