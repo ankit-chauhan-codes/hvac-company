@@ -466,6 +466,27 @@ html, body{
     font-size: 24px;
     margin: auto;
     line-height: 1.25;
+    margin-bottom: 80px;
+}
+
+#testimonials .test-description p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin: auto;
+    line-height: 1.33;
+    max-width: 68%;
+}
+
+#testimonials .test-name h6{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin: auto;
+    line-height: 1.2;
+    margin-bottom: 100px;
 }
 /* testimonials */
 
